@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane prefHeight="794.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <WebView fx:id="detailswebview" layoutX="14.0" layoutY="112.0" prefHeight="674.0" prefWidth="1056.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="112.0" />
+      <Label fx:id="subjectlabel" layoutX="37.0" layoutY="22.0" prefHeight="31.0" prefWidth="999.0" text="Subject : " />
+      <Label fx:id="senderlabel" layoutX="37.0" layoutY="70.0" prefHeight="31.0" prefWidth="999.0" text="Sender : " />
+   </children>
+</AnchorPane>
